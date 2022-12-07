@@ -83,7 +83,7 @@ Spring으로 로그인 없는 블로그를 구현합니다.
 
 ​	=> body 사용 / query와 param을 사용 시, 주소에 변수값과 변수로 password가 들어갔을 때 보안상 안 좋을 것 같다는 생각으로 body를 썼습니다.
 
-
+<br>
 
 ​	**A2. 어떤 상황에 어떤 방식의 request를 써야하나요?** 
 
@@ -93,19 +93,19 @@ Spring으로 로그인 없는 블로그를 구현합니다.
 
 ​	=> body : JSON 등의 데이터를 담을 때
 
-
+<br>
 
 ​	**A3. RESTful한 API를 설계했나요? 어떤 부분이 그런가요? 어떤 부분이 그렇지 않나요?**
 
 ​	=> 각 기능에 대해 적절한 API Method를 선택하고 annotation을 통해 해당 HTTP 요청이 왔을 때만 동작하도록 RESTful하게 구현했습니다.
 
-
+<br>
 
 ​	**A4. 적절한 관심사 분리를 적용하였나요? (Controller, Repository, Service)**
 
 ​	=> 사용자의 요청을 받는 곳은 Controller, 실질적인 처리를 하는 곳은 Service, DB에 접근하는 메서드는 Repository로 분리했습니다.
 
-
+<br>
 
 ​	**A5. API 명세서 작성 가이드라인을 검색하여 직접 작성한 API 명세서와 비교해보세요!**
 
